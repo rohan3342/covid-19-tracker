@@ -1,7 +1,7 @@
 # COVID-19 Tracker
 
 ## Live Link
-https://covid-19-tracker-d47b0.web.app/
+https://covid-19-tracker-d47b0.web.app/ 
 
 ## Available Scripts
 
