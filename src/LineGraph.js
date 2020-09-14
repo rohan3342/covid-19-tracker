@@ -90,7 +90,6 @@ function LineGraph({ casesType, ...props} ) {
           //console.log('In LineGraph => ', casesType);
           setTypes(casesType)
           setData(chartData);
-          // buildChart(chartData);
         });
     };
 

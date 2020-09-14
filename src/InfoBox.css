@@ -33,7 +33,7 @@
 }
 
 @media(max-width: 500px){
- .infoBox{
+  .infoBox{
     margin-top: 10px;
     width: 270px;
  } 

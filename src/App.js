@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MenuItem, FormControl, Select, Card, CardContent} from "@material-ui/core";
+import { MenuItem, FormControl, Select, Card, CardContent } from "@material-ui/core";
 import InfoBox from "./InfoBox";
 import LineGraph from "./LineGraph";
 import Table from "./Table";
@@ -59,7 +59,7 @@ const App = () => {
       .then((data) => {
         setInputCountry(countryCode);
         setCountryInfo(data);
-        countryCode === "worldwide" ? setMapCenter({lat: 34.80746, lng: -40.4796}) : 
+        countryCode === "worldwide" ? setMapCenter({ lat: 34.80746, lng: -40.4796 }) :
           setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
         setMapZoom(4);
       });
@@ -122,7 +122,7 @@ const App = () => {
             <h3>Live Cases by Country</h3>
             <Table countries={tableData} />
             <h3>Worldwide new {casesType}</h3>
-            <LineGraph casesType={casesType} className="app__graph"/>
+            <LineGraph casesType={casesType} className="app__graph" />
           </div>
         </CardContent>
       </Card>
